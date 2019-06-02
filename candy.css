@@ -1,0 +1,60 @@
+body {
+  background-color: #eb7e6e;
+  font-family: "Nunito", sans-serif;
+}
+
+#main-nav .navbar-brand {
+  color: #ca1c2c;
+}
+
+#main-nav .nav-link {
+  color: white;
+}
+
+#main-nav .nav-link:hover {
+  color: #ca1c2c;
+  text-shadow: 1px 1px 2px red, 0 0 1em pink, 0 0 0.2em palevioletred;
+}
+/*  hover is a sudo element which will only activate when curser will hover over it */
+
+#main-nav {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#agni span {
+  color: #ca1c2c;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.navbar-brand:hover {
+  text-shadow: 1px 1px 2px white, 0 0 2em white, 0 0 0.6em white;
+}
+
+.headline {
+  color: #ca1c2c;
+  font-size: 2.5rem;
+}
+
+.content {
+  margin-top: 100px;
+}
+.para {
+  margin-bottom: 100px;
+}
+#main-nav.scrolled {
+  background-color: rgb(222, 192, 222);
+  transition: background-color 0.5s linear;
+}
+
+@media (max-width: 1200px) {
+  #agni h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+}
